@@ -1,0 +1,39 @@
+<!-- Footer -->
+<!-- ===================================== -->
+  <footer class="{% if include.className %}{{include.className}}{% endif %}">
+
+
+    <!-- xxx -->
+    <!-- ===================================== -->
+    footer
+
+  </footer>
+
+
+
+
+  <!-- Javascript -->
+  <!-- ===================================== -->
+
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+<!--   <script>window.jQuery || document.write('<script src="js/vendor/jquery/dist/jquery.min.js"><\/script>')</script> -->
+  <!-- <script src="js/plugins.js"></script> -->
+  <!-- <script src="js/main.js"></script> -->
+
+
+
+
+  <!-- Analytics -->
+  <!-- ===================================== -->
+<!--   {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %} -->
+
+
+  <!-- Testing Jekyll Environments -->
+  <!-- ===================================== -->
+  {% if jekyll.environment == 'production' %}
+    <script>console.log('Production');</script>
+  {% else %}
+    <script>console.log('Development');</script>
+  {% endif %}
